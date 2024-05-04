@@ -12,7 +12,24 @@
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    padding:30px;
+    
  }
+
+ 
+
+
+ .left{
+   margin-left: 400px;
+   max-width: 40%;
+ }
+
+ .right {
+   margin-right: 400px;
+   max-width:60%;
+ }
+
+ 
 
  .logo {
     font-size: 24px;
@@ -34,16 +51,21 @@
  }
 
 img{
-    height: 250px;
+    max-height: 250px;
+    margin-left: 44px;
     
 }
 
-.box {
+.box-1 {
     border: 5px solid #3882f6;
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
+section {
+   padding: 50px;
+}
 
  .links {
     list-style: none;
@@ -54,14 +76,82 @@ img{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    max-width: 444px;
  }
 
  .secondary-text {
     font-size:18px;
     color: #e5e7eb;
+    max-width: 444px;
+ }
+
+ .title {
+   text-align: center;
+   font-size: 36px;
+   font-weight: extra-bold;
+   color: #1f2937;
+   margin-top: 50px;
+   margin-bottom: 50px;
  }
 
  ul {
     display: flex;
     
  }
+
+ .text {
+   max-width: 350px;
+   text-align: center;
+   
+ }
+
+ .container {
+   display: flex;
+   justify-content: center;
+   gap: 52px;
+ }
+
+ .quote-section {
+   background-color:#e5e7eb;
+   padding: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .quotes {
+   font-size: 36px;
+   font-weight: light;
+   font-style: italic;
+ }
+
+ .author {
+   color: #1f2937;
+   font-weight: bold;
+   align-self: flex-end;
+ }
+
+ .cta {
+   padding:88px 111px;
+
+ }
+
+ .cta-blue {
+   background-color: #3882f6;
+   border-radius: 4px;
+   color: #f9faf8;
+   display: flex;
+   justify-content: space-around;
+   padding: 33px 77px;
+ }
+
+ .outline {
+   background-color: #3882f6;
+   color: #f9faf8;
+   padding: 5px 20px;
+   border-radius: 8px;
+   border: 2px solid #f9faf8;
+ }
+
+ 
