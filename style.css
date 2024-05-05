@@ -154,4 +154,20 @@ section {
    border: 2px solid #f9faf8;
  }
 
- 
+ .author {
+  margin: auto;
+ }
+
+ .footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color:#1f2937;
+  color:#e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+ }
